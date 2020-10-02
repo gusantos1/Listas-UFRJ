@@ -21,20 +21,20 @@ def atualizar(lista,i=int,nova=str):
             if i == 0:
                 lista.insert(0,nova)
                 lista.pop(1)
-                return lista
+                return True
             elif i == 2:
                 lista.insert(2,nova)
                 lista.pop(3)
-                return lista
+                return True
             elif i == 3:
                 lista.insert(3,nova)
                 lista.pop(4)
-                return lista
+                return True
         #tratamento de dados apenas sobre telefone.
         else:
             if nova in lista[1]:
                 lista.pop(1)
-                return lista
+                return True
             else:
                 lista[1].extend([nova])
-                return lista
+                return True
