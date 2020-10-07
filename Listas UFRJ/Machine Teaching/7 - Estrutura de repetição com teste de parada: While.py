@@ -22,7 +22,7 @@ def uppCons(frase):
     contador = 0
     #A questão não está considerando 'v' como consoante.
     while contador < len(frase):
-        if frase[contador] in 'BbCcDdFfGHhgJjKkLlMmNnPpQqRrSsTtWwXxZzç':
+        if frase[contador] in 'BbCcDdFfGHhgJjKkLlMmNnPpQqRrSsTtVvWwXxZzç':
             frase = frase.replace(frase[contador],frase[contador].upper())
         contador += 1
     return frase
