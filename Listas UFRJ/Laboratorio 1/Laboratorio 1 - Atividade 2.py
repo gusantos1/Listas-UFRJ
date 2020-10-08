@@ -1,7 +1,7 @@
 from math import *
 #Questão 1.
 def media(valor1, valor2, valor3, valor4):
-    """Função que retorna a média de três números inteiros. int,int,int,int -> int"""
+    """Função que retorna a média de quatro números inteiros. int,int,int,int -> int"""
     var_media = (valor1 + valor2 + valor3 + valor4) / 4
     return var_media
 def bombons(dinheiro,preco):
