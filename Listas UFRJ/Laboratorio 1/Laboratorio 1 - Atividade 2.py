@@ -21,7 +21,7 @@ def distancia(xaya,xbyb):
     resultado = dist(xaya, xbyb)
     return resultado
     # Outra alternativa para o resultado.
-    # return sqrt((xbyb[0]-xaya[0])*2+(xbyb[1]-xaya[1])*2)
+    # return sqrt((xbyb[0]-xaya[0])**2+(xbyb[1]-xaya[1])**2)
 def perimetro(caoposto,cadjacente):
     """Função que retorna o perímetro de um triângulo retângulo. int ou float -> int ou flaot
     Use coposto: Valor do cateto oposto.
