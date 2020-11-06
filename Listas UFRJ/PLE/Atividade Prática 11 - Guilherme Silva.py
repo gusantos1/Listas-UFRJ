@@ -2,7 +2,7 @@
 from random import sample
 def gera_matriz():
     """Função que gera uma matriz 4x4 com pares de 1 a 8. Sem parâmetros -> str"""
-    matriz = [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8]
+    matriz = [x for x in range(1, 9)] * 2
     for posicao in range(1, 17):
         i = sample(matriz, 1)[0]
         print(i, end=' ')
@@ -13,7 +13,7 @@ def gera_matriz():
 #Questão 2
 def main():
     #globais
-    elementos_matriz = [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8]
+    elementos_matriz = [x for x in range(1, 9)] * 2
     matriz = []
     jogadas = termina = 0
     def forma_matriz():
