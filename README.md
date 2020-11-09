@@ -1,9 +1,12 @@
 # Listas UFRJ <img src="https://github.com/gusantos1/icons/blob/main/pyfile.jpg" width="100" height="100">
 ---
 Resolução dos exercícios propostos em Python pela Universidade Federal do Rio de Janeiro.
+
 > Tecnlogias:
 <img src="https://github.com/gusantos1/icons/blob/main/python_18894.png" width="26" height="26">
+
 ---
+
 # Pré-requesitos
 É necessário que você tenha uma versão 3 do python instalado em sua máquina juntamente com o pyQt5.
 #### Python 3 para windows
