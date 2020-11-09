@@ -2,8 +2,7 @@
 ---
 Resolução dos exercícios propostos em Python pela Universidade Federal do Rio de Janeiro.
 
-> Tecnlogias:
-<img src="https://github.com/gusantos1/icons/blob/main/python_18894.png" width="26" height="26">
+> Tecnlogias:<img src="https://github.com/gusantos1/icons/blob/main/python_18894.png" width="26" height="26">
 
 ---
 
@@ -30,9 +29,6 @@ sudo apt-get install python3-pyqt5
 sudo apt-get install pyqt5-dev-tools
 sudo apt-get install qttools5-dev-tools
 ```
----
-# Telas de execução
-
 ---
 ## Contato
 *Quer trocar uma idéia, ficou com alguma dúvida ou tem algo que eu posso te ajudar ? Quer mandar **joooobs** :dollar: ? **Fique a vontade!** :wink:*
