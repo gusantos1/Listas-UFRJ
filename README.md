@@ -1,4 +1,4 @@
-# Listas UFRJ <img src="https://github.com/gusantos1/icons/blob/main/pyfile.jpg" width="100" height="100">
+# Listas do Laboratório 1 - UFRJ <img src="https://github.com/gusantos1/icons/blob/main/pyfile.jpg" width="100" height="100">
 ---
 Resolução dos exercícios propostos em Python pela Universidade Federal do Rio de Janeiro.
 
