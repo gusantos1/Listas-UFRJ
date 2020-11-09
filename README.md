@@ -1,10 +1,8 @@
-# Listas UFRJ <img src="https://github.com/gusantos1/icons/blob/main/pylogo2.jpg" width="100" height="100">
+# Listas UFRJ <img src="https://github.com/gusantos1/icons/blob/main/pyfile.jpg" width="100" height="100">
 ---
 Resolução dos exercícios propostos em Python pela Universidade Federal do Rio de Janeiro.
 > Tecnlogias:
-<img src="https://github.com/gusantos1/icons/blob/main/python_18894.png" width="26" height="26">  <img src="https://github.com/gusantos1/icons/blob/main/qt.png" width="24" height="24"> 
-##### :heavy_exclamation_mark: Se você é aluno da UFRJ saiba que esse github possui várias resoluções de exercícios de computação que provavelmente você terá que lidar durante o período.:heavy_exclamation_mark:
-###### ![Listas-UFRJ](https://github.com/gusantos1/Listas-UFRJ) *Agora cai pra dentro e já garanta que essa matéria você não vai reprovar*. :wink::thumbsup:
+<img src="https://github.com/gusantos1/icons/blob/main/python_18894.png" width="26" height="26">
 ---
 # Pré-requesitos
 É necessário que você tenha uma versão 3 do python instalado em sua máquina juntamente com o pyQt5.
