@@ -1,3 +1,4 @@
+from math import *
 #Questão 1.A
 print(max(3,2.8,3.9))
 print(min(7,2,4,1,0))
@@ -23,12 +24,10 @@ def delta(a,b,c):
 #Questão 2.B
 def primeira_raiz(a,b,c):
     """Função que calcula o primeira raiz real da equação do segundo grau. int -> int ou float"""
-    from math import sqrt
     return (-b+sqrt(delta(a,b,c)))/(2*a)
 #Questão 2.C
 def segunda_raiz(a,b,c):
     """Função que calcula a segunda raiz real da equação do segundo grau. int -> int ou float"""
-    from math import sqrt
     return (-b-sqrt(delta(a,b,c)))/(2*a)
 #Questão 3.A.B.C
 def termo_geral(i,f,r):
@@ -42,13 +41,11 @@ def soma_da_pa(i,f,r):
 #Questão 4.A
 def hip_triangulo_retangulo(coposto,cadjacente):
     """Função que calcula o valor da hipotenusa de um triângulo retângulo. int ou float -> float"""
-    from math import hypot
     return hypot(coposto,cadjacente)
 #Questão 4.B
 def distancia(x1y1,x2y2):
     """Função que calcula a distância entre dois pontos de um plano cartesiano. Use entradas, como:
     [5.2],[2.0] -> 3.2 . float -> float"""
-    from math import dist
     resultado = dist(x1y1, x2y2)
     return resultado
 #Questão 4.C
@@ -57,14 +54,10 @@ def perimetro(caoposto,cadjacente):
     return caoposto+cadjacente+hip_triangulo_retangulo(caoposto,cadjacente)
 #Questão 4.D
 def somas(arg,arg2):
-    from math import sin
-    from math import cos
-    from math import radians
     return sin(radians(arg))*2+cos(radians(arg2))*2
 #Questão 4.E
 def comprimento_circulo(r):
     """Função que calcula o comprimento do círculo. int -> float"""
-    from math import pi
     return 2*pi*r
 #Questão 5
 def area_setor_circular(r,alfa=360):
@@ -73,7 +66,6 @@ def area_setor_circular(r,alfa=360):
 #Questão 6
 def bombons(dinheiro, preco):
     """Função que calcula a compra de bombons. int ou float -> int"""
-    from math import trunc
     return trunc(dinheiro/preco)
 #Questão 7
 def imc(peso,altura):
@@ -82,7 +74,6 @@ def imc(peso,altura):
 #Questão 8
 def carros_viagem(pessoas,c=5):
     """Função que calcula a capacidade máxima do número de pessoas dentro de um veículo. int -> int"""
-    from math import ceil
     return ceil(pessoas/c)
 #Questão 9
 def pista_circular(r,dis):
@@ -91,7 +82,6 @@ def pista_circular(r,dis):
 #Questão 10
 def bolo(farinha,ovo,leite):
     """Função que a quantidade máxima de bolos. int -> int"""
-    from math import trunc
     farinha=trunc(farinha/2)
     ovo=trunc(ovo/3)
     leite=trunc(leite/5)
