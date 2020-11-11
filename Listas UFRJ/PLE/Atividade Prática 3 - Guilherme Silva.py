@@ -12,7 +12,7 @@ def quantidade_raizes(a,b,c):
         return 0
     elif delta == 0:
         return 1
-    elif delta > 0:
+    else:
         return 2
 #Questão 3
 def repete_texto(texto,n):
@@ -35,7 +35,7 @@ def comportamento(x):
         y = 2
     elif 3.5 < x <= 5.5:
         y = 3
-    elif x > 5.5:
+    else:
         y = x**2-10*x+28
     return y
 #Questão 6
@@ -45,7 +45,7 @@ def desconto_inss(salariobruto):
         desconto = 0.06*salariobruto
     elif salariobruto <= 3000:
         desconto = 0.08*salariobruto
-    elif salariobruto > 3000:
+    else:
         desconto = 0.10*salariobruto
     return desconto
 def desconto_ir(salariobruto):
@@ -54,7 +54,7 @@ def desconto_ir(salariobruto):
         desconto = 0.11*salariobruto
     elif salariobruto <= 5000:
         desconto = 0.15*salariobruto
-    elif salariobruto > 5000:
+    else:
         desconto = 0.22*salariobruto
     return desconto
 def salario_liquido(salariobruto):
